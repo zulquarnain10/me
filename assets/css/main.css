@@ -1296,6 +1296,17 @@ section,
   background-color: #3e8e41;
   transform: scale(0.95);
 }
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.whatsapp-button img {
+  width: 50px;
+  height: 50px;
+}
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
