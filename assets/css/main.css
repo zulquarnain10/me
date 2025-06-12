@@ -1271,24 +1271,31 @@ section,
   margin-right: 8px;
   color: var(--accent-color);
 }
-.download-btn {
+.download-cv-btn {
   display: inline-block;
-  padding: 12px 25px;
+  padding: 12px 28px;
   font-size: 16px;
-  background-color: #4CAF50;
+  font-weight: 600;
   color: white;
-  text-decoration: none;
+  background-color: #4CAF50;
   border: none;
   border-radius: 8px;
-  font-family: Arial, sans-serif;
+  text-decoration: none;
+  font-family: 'Segoe UI', sans-serif;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 
-.download-btn:hover {
+.download-cv-btn:hover {
   background-color: #45a049;
   transform: scale(1.05);
 }
 
+.download-cv-btn:active {
+  background-color: #3e8e41;
+  transform: scale(0.95);
+}
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
