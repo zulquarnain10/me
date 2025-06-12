@@ -1282,32 +1282,6 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Style the button */
-.download-button {
-  padding: 15px 30px;
-  font-size: 18px;
-  color: #fff;
-  background: linear-gradient(135deg, #007BFF, #00c6ff);
-  text-decoration: none;
-  border-radius: 50px;
-  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
-  transition: all 0.3s ease;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-/* Add hover effect */
-.download-button:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(0, 123, 255, 0.5);
-}
-
-
-.download-cv-btn:active {
-  background-color: #3e8e41;
-  transform: scale(0.95);
-}
 .whatsapp-button {
   position: fixed;
   bottom: 20px;
